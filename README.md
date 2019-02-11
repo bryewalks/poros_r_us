@@ -1,8 +1,7 @@
 # PorosRUs
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/poros_r_us`. To experiment with that code, run `bin/console` for an interactive prompt.
+Plain ole ruby objects for our building api. includes find, all, edit, create, and destroy
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +21,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Building.find(ENTER ID NUMBER HERE)
+Building.all #show all buildings
+Building.create #create a new building with these attributes
+    id
+    name
+    address
+    height
+    construction_date
+    architect
+Building.edit(ENTER ID NUMBER HERE)
+Update
+Destroy
 
 ## Development
 

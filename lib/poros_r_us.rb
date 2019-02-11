@@ -1,8 +1,6 @@
 require "poros_r_us/version"
 require "http"
 
-module PorosRUs
-  class Error < StandardError; end
   class Building
     attr_accessor :name, :address, :height, :construction_date, :architect, :id
     def initialize(input_options)
@@ -66,6 +64,5 @@ module PorosRUs
     end
 
   end
-  # Your code goes here...
-end
+
 

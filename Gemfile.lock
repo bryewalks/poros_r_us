@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     poros_r_us (0.1.0)
-      http (~> 4.0.2)
+      http (~> 4.0)
 
 GEM
   remote: https://rubygems.org/
